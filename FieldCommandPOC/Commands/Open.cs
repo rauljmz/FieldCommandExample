@@ -10,7 +10,24 @@ namespace FieldCommandPOC.Commands
     {
         public override void Execute([NotNull] CommandContext context)
         {
-            SheerResponse.Alert("open clicked", false);
+            Sitecore.Context.ClientPage.Start(this, "Run");
+        }
+
+        public void Run(ClientPipelineArgs args)
+        {
+            if (!args.IsPostBack)
+            {
+                SheerResponse.ShowModalDialog("/ProductIntegration/ProductBrowser.aspx");
+                args.WaitForPostBack();
+            }
+            else
+            {
+                if (args.HasResult)
+                {
+                    
+                }
+            }
+
         }
     }
 }
