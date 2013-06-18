@@ -65,7 +65,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\include\xFieldCommand.config" />
+    <Content Include="App_Config\include\xFieldCommand.config" />
+    <None Include="Properties\PublishProfiles\FieldCommand.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\include\xSerialization.config" />
