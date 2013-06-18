@@ -62,15 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Open.cs" />
+    <Compile Include="ProductIntegration\ProductBrowser.aspx.cs">
+      <DependentUpon>ProductBrowser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductIntegration\ProductBrowser.aspx.designer.cs">
+      <DependentUpon>ProductBrowser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\include\xFieldCommand.config" />
+    <Content Include="ProductIntegration\ProductBrowser.aspx" />
     <None Include="Properties\PublishProfiles\FieldCommand.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\include\xSerialization.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
