@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <ProductBrowser>
+
+    <FormDialog Icon="Core3/24x24/Copy_To_Folder.png" Header="Select product"
+      Text="Select the Product" OKButton="Select">
+
+      <CodeBeside Type="FieldCommandPOC.sitecore_modules.shell.ProductBrowserForm,FieldCommandPOC"/>
+      <GridPanel Width="100%" Height="100%" Style="table-layout:fixed">
+        <Scrollbox Height="100%" Class="scScrollbox scFixSize scFixSize4 scInsetBorder" Background="white" Padding="10px" GridPanel.Height="100%">          
+          <Edit ID="Product" Width="100%"/>
+        </Scrollbox>
+      </GridPanel>
+    </FormDialog>
+  </ProductBrowser>
+</control>

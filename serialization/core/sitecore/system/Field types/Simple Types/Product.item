@@ -10,12 +10,26 @@ template: {F8A17D6A-118E-4CD7-B5F5-88FF37A4F237}
 templatekey: Template field type
 
 ----field----
+field: {6BF5ED07-BC70-42F4-BB77-C017D340950E}
+name: Assembly
+key: assembly
+content-length: 15
+
+FieldCommandPOC
+----field----
+field: {9FE6154A-A16E-4827-99F6-F51533C34EC8}
+name: Class
+key: class
+content-length: 34
+
+FieldCommandPOC.Field.ProductField
+----field----
 field: {0F0A5388-0467-4A45-95C0-729B1D6DB9FD}
 name: Control
 key: control
-content-length: 12
+content-length: 0
 
-content:Text
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -26,7 +40,7 @@ Control/16x16/edit_b.png
 ----version----
 language: en
 version: 1
-revision: 81bfad68-bb9f-4f45-9602-8a7ecbbe726f
+revision: dde884c5-f6dd-4dbb-922d-73c9a9d3e964
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-81bfad68-bb9f-4f45-9602-8a7ecbbe726f
+dde884c5-f6dd-4dbb-922d-73c9a9d3e964
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 15
+content-length: 34
 
-20071024T110944
+20130618T174758:635071744787410947
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

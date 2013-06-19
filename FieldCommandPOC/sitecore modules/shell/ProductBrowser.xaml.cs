@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace FieldCommandPOC.ProductIntegration
+namespace FieldCommandPOC.sitecore_modules.shell
 {
     public partial class ProductBrowser : System.Web.UI.Page
     {
